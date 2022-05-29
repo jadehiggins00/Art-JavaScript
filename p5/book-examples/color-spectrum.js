@@ -4,22 +4,24 @@
 
 */
 
-
+var segmentCount = 360;
+var radius = 400;
 
 function setup(){
-    createCanvas(800,400);
-   // noStroke();
+    createCanvas(1000,1000);
+    noStroke();
 
 }//end funct
 
 function draw(){
-
-    colorMode(HSB,width,height);
+      
+    colorMode(HSB,360,width,height);
     background(360,0,height);
 
     // the angle increment angleStep depends on how
-    // many segments are to be drawn(segmentCount)
+    // many segments are to be drawn(segmentCount)34
     var angleStep = 360 / segmentCount;
+
 
     // the first vertex point is in the middle
     // of the drawing canvas
@@ -46,6 +48,28 @@ function draw(){
 
 function keyPressed(){
 
-    
+    switch(key){
+
+        case '1':
+            segmentCount = 360;     
+            break;
+        case '2':
+            segmentCount = 45;
+            break;
+        case '3':
+            segmentCount = 24;
+            break;
+        case '4':
+            segmentCount = 12;
+            break;
+        case '5':
+            segmentCount = 6;
+            break;
+        case '6':
+            segmentCount = 3;
+            break;
+
+
+    }//end switch
 
 }//end function
