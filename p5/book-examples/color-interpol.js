@@ -12,6 +12,7 @@ var colorsLeft = [];
 var colorsRight = [];
 var colors = [];
 
+
 var interpolateShortest = true;
 
 
@@ -20,7 +21,6 @@ function setup() {
     colorMode(HSB);
     noStroke();
     shakeColors();
-
 
 }//end function 
 
@@ -50,7 +50,7 @@ function draw() {
         for (var gridX = 0; gridX < tileCountX; gridX++) {
 
             // amount is between 0 and 1 and specifies the position between the start and end color
-            var amount = map(gridX, 0, tileCountX - 1, 0.1);
+            var amount = map(gridX, 0, tileCountX - 1, 0, 1);
 
             if (interpolateShortest) {
                 // switch to rgb
@@ -99,14 +99,10 @@ function mouseReleased() {
 function keyPressed() {
 
     // save ase pallet
-    if (key == 'c' || key == 'C') writeFile([gd.ase.encode(colors)], gd.timestamp(), 'ase');
-
-    // save the image
+    if (key == 'c' || key == 'C') writeFile([ase.encode(colors)], timestamp(), 'ase');
     if (key == 's' || key == 'S') saveCanvas(gd.timestamp(), 'png');
-
-    // interpolation style
     if (key == '1') interpolateShortest = true;
     if (key == '2') interpolateShortest = false;
 
 
-}//end function
+}//end functions
