@@ -3,7 +3,7 @@
 This is my personal repository for creating art with Processing Language and JavaScript in P5.js.
 
 ## 31/05/2022
-### Color Palletes from Image - Featuring various Towns from Sweden + Norway:
+### Colour Palettes from Images - Featuring various Towns from Sweden + Norway:
 #### Eskilstuna, Sweden
 ![color-pal](p5/book-examples/images/eskil-1.png)
 ### Distorted the Image with Hue & Saturation
@@ -22,7 +22,7 @@ This is my personal repository for creating art with Processing Language and Jav
 ![color-pal](p5/book-examples/images/vast-saturation.png)
 
 ## 30/05/2022
-### A grid of colours with interpolation:
+### A Grid of Colours with Interpolation:
 ![rainbow](p5/book-examples/images/interpol-1.png)
 
 ![rainbow](p5/book-examples/images/interpol-2.png)
@@ -30,7 +30,7 @@ This is my personal repository for creating art with Processing Language and Jav
 ![rainbow](p5/book-examples/images/interpol-3.png)
 
 ## 28/05/2022 
-### rainbow spectrums playing with Hue and Saturation:
+### Rainbow Spectrums Playing with Hue and Saturation:
 ![rainbow](p5/book-examples/images/rainbow-spec2.png)
 
 ![rainbow](p5/book-examples/images/rainbow-spec3.png)
