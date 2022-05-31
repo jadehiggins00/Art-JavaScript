@@ -1,4 +1,4 @@
-# Welcome to my personal repository where I create Art with code :)
+# Welcome!
 
 This is my personal repository for creating art with Processing Language and JavaScript in P5.js.
 
