@@ -1,7 +1,6 @@
 # Welcome to my personal repository where I create Art with code :)
 
-This is my personal repository for creating art with javascript and p5.js, each day at work I will
-try to document myy progress.
+This is my personal repository for creating art with Processing Language and JavaScript in P5.js.
 
 
 ## 28/05/2022 
