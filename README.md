@@ -2,7 +2,7 @@
 
 This is my personal repository for creating art with Processing Language and JavaScript in P5.js.
 
-## 30/05/2022
+## 31/05/2022
 ### Color Palletes from Image - Featuring various Towns from Sweden + Norway:
 #### Eskilstuna, Sweden
 ![color-pal](p5/book-examples/images/eskil-1.png)
@@ -21,7 +21,7 @@ This is my personal repository for creating art with Processing Language and Jav
 ![color-pal](p5/book-examples/images/vast-hue.png)
 ![color-pal](p5/book-examples/images/vast-saturation.png)
 
-## 29/05/2022
+## 30/05/2022
 ### A grid of colours with interpolation:
 ![rainbow](p5/book-examples/images/interpol-1.png)
 
