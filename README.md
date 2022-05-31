@@ -1,4 +1,8 @@
-# Samples of art I have created with the help of books:
+# Welcome to my personal repository where I create Art with code :)
+
+This is my personal repository for creating art with javascript and p5.js, each day at work I will
+try to document myy progress.
+
 
 ## 28/05/2022 
 ### rainbow spectrums playing with Hue and Saturation:
@@ -35,3 +39,6 @@
 ![color-pal](p5/book-examples/images/vast-hue.png)
 ![color-pal](p5/book-examples/images/vast-saturation.png)
 
+## Books I use for Examples & Inspiration:
+* Coding Art, The Four Steps to Creative Programming with the Processing Language.
+* Generative Design: Visualize, Program and Create with JavaScript in P5.js
